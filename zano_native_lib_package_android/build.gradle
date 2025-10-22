@@ -73,7 +73,7 @@ afterEvaluate {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.hyle-team'
+                groupId = 'com.github.brendoncoin'
                 artifactId = 'zano_native_lib_package_android'
                 version = '1.0.4'
             }
